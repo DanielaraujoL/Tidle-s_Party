@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c9733f3773fb5dc448487844da84c6fe
+guid: c54f636c02ca23246aeb62e86681576a
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -36,7 +36,7 @@ ScriptedImporter:
     spriteMeshType: 1
     alignment: 0
     spritePivot: {x: 0.5, y: 0.5}
-    spritePixelsToUnits: 45
+    spritePixelsToUnits: 25
     spriteBorder: {x: 0, y: 0, z: 0, w: 0}
     spriteGenerateFallbackPhysicsShape: 0
     generateCubemap: 6
@@ -102,7 +102,7 @@ ScriptedImporter:
     generateIndividualEvents: 1
     generateSpriteAtlas: 1
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638938118801955954
+  platformSettingsDirtyTick: 638938072534211848
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -127,7 +127,7 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Escadas
+  - name: "Escrit\xF3rio"
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
@@ -137,9 +137,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 45
-      height: 47
-    spriteID: 3e530a40deb383947b31681c91f5b818
+      width: 300
+      height: 200
+    spriteID: 4869a0e4784e24840af014e9a5a4aa81
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -153,25 +153,25 @@ ScriptedImporter:
   asepriteLayers:
   - layerIndex: 0
     uuid:
-      value0: 680482530
+      value0: 223109137
       value1: 0
       value2: 0
       value3: 0
     guid: 0
-    name: Escadas
+    name: "Escrit\xF3rio"
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Escadas
+    - name: "Escrit\xF3rio"
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
-        width: 45
-        height: 47
-      spriteId: 3e530a40deb383947b31681c91f5b818
+        width: 300
+        height: 200
+      spriteId: 4869a0e4784e24840af014e9a5a4aa81
     linkedCells: []
     tileCells: []
     tileSetIndex: 0
@@ -205,5 +205,5 @@ ScriptedImporter:
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 45, y: 47}
-  previousTextureSize: {x: 64, y: 64}
+  canvasSize: {x: 300, y: 200}
+  previousTextureSize: {x: 512, y: 256}

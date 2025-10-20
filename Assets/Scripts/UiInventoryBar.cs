@@ -10,16 +10,37 @@ public class UIInventoryBar : MonoBehaviour
     void Awake()
     {
         Instance = this;
-        itemSlot.enabled = false;
+
+        if (itemSlot != null)
+        {
+            itemSlot.enabled = false;
+        }
+        else
+        {
+            Debug.LogWarning("UIInventoryBar: 'itemSlot' não foi atribuído no Inspector.");
+        }
+
+        if (chaveSprite == null)
+        {
+            Debug.LogWarning("UIInventoryBar: 'chaveSprite' não foi atribuído no Inspector.");
+        }
     }
 
     public void ShowItem(string itemID)
     {
         if (itemID == "ChaveSaida")
         {
-            itemSlot.sprite = chaveSprite;
-            itemSlot.enabled = true;
+            if (itemSlot != null && chaveSprite != null)
+            {
+                itemSlot.sprite = chaveSprite;
+                itemSlot.enabled = true;
+            }
+            else
+            {
+                Debug.LogWarning("UIInventoryBar: itemSlot ou chaveSprite está nulo. Verifique o Inspector.");
+            }
         }
     }
 }
+
 
